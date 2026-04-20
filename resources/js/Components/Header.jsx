@@ -70,6 +70,64 @@ const renderMenuItems = (items, navigate) => {
     ));
 };
 
+const renderMobileMenuItems = (
+    items,
+    navigate,
+    mobileAccordions,
+    setMobileAccordions,
+    closeMenu = true,
+    level = 0,
+) => {
+    return items.map((item, idx) => {
+        const key = `mobile-${item.id || `${level}-${idx}`}`;
+        const hasChildren =
+            Array.isArray(item.children) && item.children.length > 0;
+
+        return (
+            <div key={key} className={`acc acc--level-${level}`}>
+                <button
+                    type="button"
+                    className="acc__toggle"
+                    onClick={(e) => {
+                        if (hasChildren) {
+                            e.preventDefault();
+                            setMobileAccordions((prev) => ({
+                                ...prev,
+                                [key]: !prev[key],
+                            }));
+                        } else {
+                            navigate(item.url, closeMenu)(e);
+                        }
+                    }}
+                >
+                    <SafeHtml html={item.label || item.name} as="span" />
+
+                    {hasChildren && (
+                        <FaChevronDown
+                            className={cx(
+                                "acc__chev",
+                                mobileAccordions[key] && "rot",
+                            )}
+                        />
+                    )}
+                </button>
+
+                {hasChildren && mobileAccordions[key] && (
+                    <div className="acc__content open">
+                        {renderMobileMenuItems(
+                            item.children,
+                            navigate,
+                            mobileAccordions,
+                            setMobileAccordions,
+                            closeMenu,
+                            level + 1,
+                        )}
+                    </div>
+                )}
+            </div>
+        );
+    });
+};
 const HeaderInner = memo(() => {
     const { props } = usePage();
 
@@ -381,61 +439,13 @@ const HeaderInner = memo(() => {
                         </div>
 
                         <div className="drawer__body">
-                            {navItems.map((item, idx) => (
-                                <div key={idx} className="acc">
-                                    <button
-                                        className="acc__toggle"
-                                        onClick={(e) =>
-                                            item.hasChildren
-                                                ? setMobileAccordions((p) => ({
-                                                      ...p,
-                                                      [item.dropdownKey]:
-                                                          !p[item.dropdownKey],
-                                                  }))
-                                                : navigate(item.url, true)(e)
-                                        }
-                                    >
-                                        <SafeHtml
-                                            html={item.displayName}
-                                            as="span"
-                                        />
-                                        {item.hasChildren && (
-                                            <FaChevronDown
-                                                className={cx(
-                                                    "acc__chev",
-                                                    mobileAccordions[
-                                                        item.dropdownKey
-                                                    ] && "rot",
-                                                )}
-                                            />
-                                        )}
-                                    </button>
-                                    {item.hasChildren &&
-                                        mobileAccordions[item.dropdownKey] && (
-                                            <div className="acc__content open">
-                                                {item.children.map((sub, i) => (
-                                                    <a
-                                                        key={i}
-                                                        href={sub.url}
-                                                        className="acc__link"
-                                                        onClick={navigate(
-                                                            sub.url,
-                                                            true,
-                                                        )}
-                                                    >
-                                                        <SafeHtml
-                                                            html={
-                                                                sub.label ||
-                                                                sub.name
-                                                            }
-                                                            as="span"
-                                                        />
-                                                    </a>
-                                                ))}
-                                            </div>
-                                        )}
-                                </div>
-                            ))}
+                            {renderMobileMenuItems(
+                                navItems,
+                                navigate,
+                                mobileAccordions,
+                                setMobileAccordions,
+                                true,
+                            )}
                         </div>
 
                         {/* MOBİL DİL VE TEMA KONTROLLERİ */}
