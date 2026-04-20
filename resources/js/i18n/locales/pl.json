@@ -1,0 +1,243 @@
+{
+    "hero": {
+        "title": "Twój niezawodny partner w zakwaterowaniu i zarządzaniu obiektami",
+        "subtitle": "Dzięki ponad 25-letniemu doświadczeniu oferujemy zintegrowane rozwiązania w zakresie sprzątania, konserwacji i zarządzania obiektami",
+        "button_services": "Odkryj nasze usługi",
+        "button_contact": "Skontaktuj się z nami"
+    },
+    "services": {
+        "section_title": "Nasza szeroka gama usług",
+        "section_subtitle": "Zapewniamy kompleksowe rozwiązania dla wszystkich potrzeb Twoich obiektów i budynków – z niemiecką precyzją i jakością.",
+        "learn_more": "Szczegółowe informacje",
+        "categories": {
+            "hotel": {
+                "title": "Sprzątanie hoteli i housekeeping",
+                "description": "Od sprzątania pokoi po zmywalnię – nienaganna higiena i wydajne procesy w każdym obszarze Twojego hotelu."
+            },
+            "building": {
+                "title": "Profesjonalne sprzątanie budynków",
+                "description": "Biura, powierzchnie handlowe, sprzątanie pobudowlane i specjalistyczne – sprawimy, że Twoje nieruchomości zabłysną."
+            },
+            "renovation": {
+                "title": "Renowacja, naprawa i konserwacja",
+                "description": "Malowanie, prace tynkarskie i gipsowo-kartonowe, układanie podłóg oraz drobne naprawy."
+            }
+        },
+        "card": {
+            "aria": "Uzyskaj więcej informacji o {{service}}",
+            "button": "Szczegóły"
+        },
+        "location": {
+            "in_city": "W {{city}}"
+        }
+    },
+    "servicesList": {
+        "title": "Usługi",
+        "subtitle": "Odkryj nasze kompleksowe usługi dla domu i firmy",
+        "meta_title": "Nasze Usługi - O&I CLEAN group GmbH",
+        "meta_description": "Profesjonalne sprzątanie, renowacja i zarządzanie obiektami.",
+        "loading": "Ładowanie…",
+        "contact_cta": "Skontaktuj się z nami",
+        "contact_cta_aria": "Skontaktuj się teraz"
+    },
+    "locations": {
+        "page_title": "Lokalizacje - O&I CLEAN group GmbH",
+        "page_description": "Profesjonalne usługi sprzątania w różnych miastach Niemiec. Lokalna wiedza, ogólnokrajowa jakość.",
+        "title": "Lokalizacje",
+        "subtitle": "Odkryj regiony, które obsługujemy w Niemczech",
+        "loading": "Ładowanie lokalizacji…",
+        "empty": "Obecnie brak lokalizacji do wyświetlenia.",
+        "cta_label": "Zaproponuj lokalizację",
+        "cta_aria": "Skontaktuj się teraz",
+        "card": {
+            "cta": "Dowiedz się więcej",
+            "cta_aria": "Uzyskaj więcej informacji o naszych usługach sprzątania w {{city}}"
+        }
+    },
+    "contact": {
+        "page_title": "Kontakt",
+        "intro_static_text": "Bezpłatnie i niezobowiązująco –",
+        "intro_dynamic_text": "odpowiemy tak szybko, jak to możliwe",
+        "title": "Skontaktuj się z nami",
+        "description": "Profesjonalne usługi sprzątania dla Twojej firmy. Chętnie udzielimy indywidualnych informacji.",
+        "submit_label": "Wyślij wiadomość",
+        "submit_failed": "Nie udało się wysłać wiadomości.",
+        "select_placeholder": "Proszę wybrać",
+        "locations_title": "Nasze Lokalizacje",
+        "success_title": "Sukces!",
+        "success_message": "Twoja wiadomość została wysłana pomyślnie. Skontaktujemy się z Tobą wkrótce.",
+        "redirecting": "Strona przeładowuje się...",
+        "phone_label": "Telefon",
+        "submitting": "Wysyłanie...",
+        "success_sub": "Skontaktujemy się z Tobą wkrótce.",
+        "email_label": "Email",
+        "address_label": "Adres",
+        "hours_label": "Godziny otwarcia",
+        "hours_value": "Pn. - Pt.: 08:00 - 17:00",
+        "phone_number": "+49 (0)36874 38 55 67",
+        "email_address": "info@oi-clean.de",
+        "address_street": "Musterstraße 123",
+        "address_city": "12345 Berlin",
+        "form": {
+            "name": "Imię i nazwisko",
+            "phone": "Telefon",
+            "email": "Email",
+            "message": "Wiadomość",
+            "other": "Pole"
+        },
+        "required": {
+            "name": "Imię i nazwisko jest wymagane.",
+            "phone": "Telefon jest wymagany.",
+            "email": "Email jest wymagany.",
+            "message": "Wiadomość jest wymagana."
+        },
+        "error_generic": "Wystąpił błąd. Proszę spróbować ponownie."
+    },
+    "footer": {
+        "description": "Wspieramy Cię niemiecką dokładnością i niezawodnością w profesjonalnym sprzątaniu, konserwacji i zarządzaniu obiektami.",
+        "address": "Spaldingstr. 77–79, 20097 Hamburg",
+        "phone": "+49 (0)40 46 63 35 19",
+        "phone_raw": "+494046633519",
+        "email": "info@oi-clean.de",
+        "links_title": "Linki",
+        "contact_title": "Kontakt",
+        "link_about": "O nas",
+        "link_contact": "Kontakt",
+        "link_contact_href": "/contact",
+        "link_faq": "FAQ",
+        "link_privacy": "Prywatność",
+        "link_imprint": "Nota prawna",
+        "link_privacy_bottom": "Prywatność",
+        "copyright": "Wszelkie prawa zastrzeżone.",
+        "back_to_top": "Powrót na górę",
+        "region_label": "Stopka i informacje kontaktowe",
+        "home_aria": "O&I CLEAN - Strona główna",
+        "linkedin_aria": "LinkedIn - O&I CLEAN",
+        "instagram_aria": "Instagram - O&I CLEAN",
+        "facebook_aria": "Facebook - O&I CLEAN",
+        "quicklinks_aria": "Szybkie linki",
+        "phone_aria": "Numer telefonu",
+        "email_aria": "Email"
+    },
+    "header": {
+        "topbar_tagline": "Sprzątanie, któremu możesz zaufać — serwis 24/7",
+        "cta_label": "Umów spotkanie",
+        "cta_href": "/contact",
+        "hide_topbar": "Ukryj pasek górny",
+        "home_aria": "Strona główna",
+        "main_nav": "Nawigacja główna",
+        "menu_open": "Otwórz menu",
+        "menu_close": "Zamknij menu",
+        "language": "Język",
+        "impressum": "Nota prawna",
+        "contact_button": "Kontakt"
+    },
+    "nav": {
+        "home": "Strona główna"
+    },
+    "staticPage": {
+        "breadcrumbs_home": "Strona główna",
+        "breadcrumbs_page": "Strona",
+        "empty_content": "Treść zostanie dodana wkrótce."
+    },
+    "offerDock": {
+        "title": "Oferta",
+        "subtitle": "Bezpłatnie i niezobowiązująco",
+        "button": "Zapytaj",
+        "aria_open": "Otwórz panel oferty",
+        "aria_close": "Zamknij panel oferty"
+    },
+    "quote_modal": {
+        "title": "Zapytaj o ofertę",
+        "scrim_aria": "Zamknij okno",
+        "close_aria": "Zamknij",
+        "field_name": "Imię i nazwisko",
+        "field_email": "Email",
+        "field_phone": "Telefon",
+        "field_service": "Usługa",
+        "field_message": "Wiadomość",
+        "service_placeholder": "Proszę wybrać…",
+        "service_hotel_cleaning": "Sprzątanie hoteli",
+        "service_building_cleaning": "Sprzątanie budynków",
+        "service_window_cleaning": "Mycie okien",
+        "service_maintenance_cleaning": "Sprzątanie konserwacyjne",
+        "service_basic_cleaning": "Sprzątanie gruntowne",
+        "service_carpet_cleaning": "Czyszczenie dywanów",
+        "service_other": "Inne",
+        "service_general": "Ogólne",
+        "message_placeholder": "W czym możemy pomóc?",
+        "consent_prefix": "Wyrażam zgodę na przetwarzanie moich danych zgodnie z ",
+        "consent_link": "polityką prywatności",
+        "consent_suffix": ".",
+        "cancel": "Anuluj",
+        "submit": "Zapytaj",
+        "sending": "Wysyłanie…",
+        "error_consent": "Proszę wyrazić zgodę na przetwarzanie danych.",
+        "error_generic": "Coś poszło nie tak. Proszę spróbować ponownie.",
+        "subject_prefix": "Zapytanie ofertowe",
+        "thank_you_title": "Dziękujemy!",
+        "thank_you_text": "Twoje zapytanie zostało odebrane, skontaktujemy się z Tobą wkrótce.",
+        "close_button": "Zamknij"
+    },
+    "static": {
+        "uber-uns": {
+            "title": "O nas",
+            "subtitle": "Ponad 25 lat doświadczenia w profesjonalnym sprzątaniu budynków.",
+            "hero": {
+                "image": "/images/template.jpg",
+                "alt": "O nas – O&I CLEAN group GmbH"
+            },
+            "sections": [
+                {
+                    "heading": "Sprzątanie hoteli",
+                    "body": "Nasza firma, Ö&I CLEAN group GmbH, działa od ponad 25 lat i jest jedną z wiodących firm sprzątających. W ostatnich latach rozwinęliśmy działalność na całe Niemcy. Skupiamy się głównie na sprzątaniu hoteli."
+                }
+            ]
+        },
+        "qualitatsmanagement": {
+            "title": "Zarządzanie jakością",
+            "subtitle": "Dla nas jakość to nie tylko słowo – to zobowiązanie.",
+            "sections": [
+                {
+                    "heading": "Jakość",
+                    "body": "Kontrola jakości zapewnia, że wymagania klienta są faktycznie spełnione. Jakość jest naszym najwyższym priorytetem."
+                }
+            ]
+        },
+        "haufig-gestellte-fragen-faq": {
+            "title": "Najczęściej zadawane pytania (FAQ)",
+            "subtitle": "Odpowiedzi na pytania dotyczące naszych usług sprzątania.",
+            "sections": [
+                {
+                    "heading": "Dlaczego sprzątanie gruntowne jest ważne?",
+                    "body": "Jest ważne, ponieważ kurz i brud gromadzą się w najmniejszych zakamarkach, do których nie dociera codzienne sprzątanie."
+                }
+            ]
+        }
+    },
+    "errors": {
+        "notFound": {
+            "home": "Powrót do strony głównej",
+            "contact": "Skontaktuj się z nami",
+            "reload": "Odśwież stronę",
+            "404": "Żądana strona nie została znaleziona.",
+            "500": "Wystąpił błąd serwera — spróbuj ponownie później."
+        }
+    },
+    "cookies": {
+        "title": "Preferencje dotyczące plików cookie",
+        "message": "Używamy plików cookie, aby zapewnić najlepsze doświadczenia na naszej stronie.",
+        "accept_all": "Akceptuj wszystko",
+        "reject": "Odrzuć",
+        "save": "Zapisz wybór",
+        "privacy_policy": "Polityka prywatności",
+        "imprint": "Nota prawna"
+    },
+    "required": {
+        "name": "Imię i nazwisko jest wymagane.",
+        "phone": "Telefon jest wymagany.",
+        "email": "Email jest wymagany.",
+        "message": "Wiadomość jest wymagana."
+    },
+    "submit_error": "Błąd! Proszę spróbować ponownie."
+}

@@ -1,0 +1,422 @@
+{
+  "hero": {
+    "title": "Konaklama ve bina yönetiminde güvenilir iş ortağınız",
+    "subtitle": "25 yılı aşkın deneyimimizle temizlik, bakım ve tesis yönetimi için ihtiyaca özel entegre çözümler sunuyoruz",
+    "button_services": "Hizmetlerimizi keşfedin",
+    "button_contact": "Hemen iletişime geçin"
+  },
+  "services": {
+    "section_title": "Geniş hizmet yelpazemiz",
+    "section_subtitle": "Tesisleriniz ve binalarınızın tüm ihtiyaçları için anahtar teslim çözümler sunuyoruz – Alman titizliği ve kalitesiyle.",
+    "learn_more": "Detaylı bilgi",
+    "categories": {
+      "hotel": {
+        "title": "Otel temizliği & housekeeping",
+        "description": "Oda temizliğinden bulaşıkhaneye kadar – otelinizin her alanında kusursuz hijyen ve verimli süreçler."
+      },
+      "building": {
+        "title": "Profesyonel bina temizliği",
+        "description": "Ofisler, ticari alanlar, inşaat sonu temizlik ve özel temizlikler – mülklerinizi parlatıyoruz."
+      },
+      "renovation": {
+        "title": "Tadilat, onarım & bakım",
+        "description": "Boyama, alçı ve alçıpan işleri, zemin döşeme ve küçük onarımlar."
+      }
+    },
+    "card": {
+      "aria": "{{service}} hakkında daha fazla bilgi al",
+      "button": "Detaylar"
+    },
+    "location": {
+      "in_city": "{{city}}'de"
+    }
+  },
+  "servicesList": {
+    "title": "Hizmetler",
+    "subtitle": "Eviniz ve işiniz için sunduğumuz kapsamlı hizmetleri keşfedin",
+    "meta_title": "Hizmetlerimiz - O&I CLEAN group GmbH",
+    "meta_description": "Profesyonel temizlik, tadilat ve bina yönetimi.",
+    "loading": "Yükleniyor…",
+    "contact_cta": "Bizimle iletişime geçin",
+    "contact_cta_aria": "Hemen iletişime geçin"
+  },
+  "locations": {
+    "page_title": "Lokasyonlar - O&I CLEAN group GmbH",
+    "page_description": "Almanya’nın farklı şehirlerinde profesyonel temizlik hizmetleri. Yerel uzmanlık, ülke çapında kalite.",
+    "title": "Lokasyonlar",
+    "subtitle": "Almanya’daki hizmet verdiğimiz bölgeleri keşfedin",
+    "loading": "Lokasyonlar Yükleniyor…",
+    "empty": "Şu anda görüntülenecek lokasyon bulunmamaktadır.",
+    "cta_label": "Lokasyon talep et",
+    "cta_aria": "Şimdi iletişime geçin",
+    "contact_href": "/kontakt",
+    "card": {
+      "cta": "Daha fazla bilgi",
+      "cta_aria": "{{city}} içindeki temizlik hizmetlerimiz hakkında daha fazla bilgi alın"
+    }
+  },
+  "contact": {
+    "page_title": "İletişim",
+    "intro_static_text": "Ücretsiz ve bağlayıcı değildir –",
+    "intro_dynamic_text": "en kısa sürede size dönüş yapacağız",
+    "title": "Bizimle iletişime geçin",
+    "description": "Şirketiniz için profesyonel temizlik hizmetleri. Sizi memnuniyetle bireysel olarak bilgilendiririz.",
+    "submit_label": "Mesaj gönder",
+    "submit_failed": "Mesaj gönderilemedi.",
+    "select_placeholder": "Lütfen seçin",
+    "locations_title": "Lokasyonlarımız",
+    "success_title": "Başarılı!",
+    "success_message": "Mesajınız başarıyla gönderildi. En kısa sürede size geri dönüş yapacağız.",
+    "redirecting": "Sayfa yenileniyor...",
+    "phone_label": "Telefon",
+    "submitting": "Gönderiliyor...",
+    "success_sub": "Size en kısa sürede geri dönüş yapacağız.",
+    "email_label": "E-posta",
+    "address_label": "Adres",
+    "hours_label": "Çalışma saatleri",
+    "hours_value": "Pzt. - Cum.: 08:00 - 17:00",
+    "phone_number": "+49 (0)36874 38 55 67",
+    "email_address": "info@oi-clean.de",
+    "address_street": "Musterstraße 123",
+    "address_city": "12345 Berlin",
+    "form": {
+      "name": "İsim",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "message": "Mesaj",
+      "other": "Alan"
+    },
+    "error_generic": "Bir hata oluştu. Lütfen tekrar deneyin.",
+    "required": {
+      "name": "İsim gerekli.",
+      "phone": "Telefon gerekli.",
+      "email": "E-posta gerekli.",
+      "message": "Mesaj gerekli."
+    }
+  },
+  "footer": {
+    "description": "Profesyonel temizlik, bakım ve bina yönetiminde Alman titizliği ve güvenilirliğiyle yanınızdayız.",
+    "address": "Spaldingstr. 77–79, 20097 Hamburg",
+    "phone": "+49 (0)40 46 63 35 19",
+    "phone_raw": "+494046633519",
+    "email": "info@oi-clean.de",
+    "links_title": "Bağlantılar",
+    "contact_title": "İletişim",
+    "link_about": "Hakkımızda",
+    "link_contact": "İletişim",
+    "link_contact_href": "/contact",
+    "link_faq": "SSS",
+    "link_privacy": "Gizlilik",
+    "link_imprint": "İmpressum",
+    "link_privacy_bottom": "Gizlilik",
+    "copyright": "Tüm hakları saklıdır.",
+    "back_to_top": "Başa dön",
+    "region_label": "Alt bilgi ve iletişim bilgileri",
+    "home_aria": "O&I CLEAN - Ana sayfa",
+    "linkedin_aria": "LinkedIn - O&I CLEAN",
+    "instagram_aria": "Instagram - O&I CLEAN",
+    "facebook_aria": "Facebook - O&I CLEAN",
+    "quicklinks_aria": "Hızlı bağlantılar",
+    "phone_aria": "Telefon numarası",
+    "email_aria": "E-posta"
+  },
+  "header": {
+    "topbar_tagline": "Güvenebileceğiniz temizlik — 7/24 hizmet",
+    "cta_label": "Randevu al",
+    "cta_href": "/kontakt",
+    "hide_topbar": "Üst barı gizle",
+    "home_aria": "Ana sayfa",
+    "main_nav": "Ana navigasyon",
+    "menu_open": "Menüyü aç",
+    "menu_close": "Menüyü kapat",
+    "language": "Dil",
+    "impressum": "Damga",
+    "contact_button": "İletişim"
+  },
+  "nav": {
+    "home": "Ana sayfa"
+  },
+  "staticPage": {
+    "breadcrumbs_home": "Ana sayfa",
+    "breadcrumbs_page": "Sayfa",
+    "empty_content": "İçerik yakında eklenecek."
+  },
+  "offerDock": {
+    "title": "Teklif",
+    "subtitle": "Ücretsiz & bağlayıcı değil",
+    "button": "Talep et",
+    "aria_open": "Teklif panelini aç",
+    "aria_close": "Teklif panelini kapat"
+  },
+  "quote_modal": {
+    "title": "Teklif talep et",
+    "scrim_aria": "Modalı kapat",
+    "close_aria": "Kapat",
+    "field_name": "İsim",
+    "field_email": "E-posta",
+    "field_phone": "Telefon",
+    "field_service": "Hizmet",
+    "field_message": "Mesaj",
+    "service_placeholder": "Lütfen seçin…",
+    "service_hotel_cleaning": "Otel temizliği",
+    "service_building_cleaning": "Bina temizliği",
+    "service_window_cleaning": "Cam/pencere temizliği",
+    "service_maintenance_cleaning": "Sürekli temizlik",
+    "service_basic_cleaning": "Genel/derin temizlik",
+    "service_carpet_cleaning": "Halı temizliği",
+    "service_other": "Diğer",
+    "service_general": "Genel",
+    "message_placeholder": "Sizin için ne yapabiliriz?",
+    "consent_prefix": "Verilerimin işlenmesini ",
+    "consent_link": "gizlilik bildirimine",
+    "consent_suffix": " uygun olarak kabul ediyorum.",
+    "cancel": "İptal",
+    "submit": "Talep et",
+    "sending": "Gönderiliyor…",
+    "error_consent": "Lütfen veri işleme onayını verin.",
+    "error_generic": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+    "subject_prefix": "Teklif talebi",
+    "thank_you_title": "Teşekkürler!",
+    "thank_you_text": "Talebiniz bize ulaştı, en kısa sürede sizinle iletişime geçeceğiz.",
+    "close_button": "Kapat"
+  },
+  "static": {
+    "uber-uns": {
+      "title": "Hakkımızda",
+      "subtitle": "Profesyonel bina temizliğinde 25 yılı aşkın deneyim.",
+      "hero": {
+        "image": "/images/template.jpg",
+        "alt": "Hakkımızda – O&I CLEAN group GmbH"
+      },
+      "sections": [
+        {
+          "heading": "Otel temizliği",
+          "body": "Şirketimiz Ö&I CLEAN group GmbH 25 yıldan uzun süredir faaliyet göstermekte olup, önde gelen bina temizlik şirketlerinden biridir. Son yıllarda büyüyerek Almanya genelinde hizmet verir hale geldik. Ana odağımız otel temizliğidir. Birçok büyük otel zincirinin yanı sıra özel ve ticari firmalar da müşteri portföyümüze dahildir."
+        },
+        {
+          "heading": "Çalışanlar & değerler",
+          "body": "2000’den fazla esnek ve yıllar içinde işlerine olan güvenilirliklerini kanıtlamış çalışan ile çalışıyoruz. Müşterimiz olarak, sürdürülebilir davranışa ne kadar önem verdiğimizi ve verdiğimiz sözü tuttuğumuzu hissedersiniz – bu da bizi diğer firmalardan ayırır."
+        },
+        {
+          "heading": "Güven & tutku",
+          "body": "Çalışanlarımıza ve elbette müşterilerimize karşı güven ve takdir, şirketimizin temelini oluşturur. Uyumlu bir ekip ve işini tutkuyla yapan bir hizmet sağlayıcı – odak noktamız budur."
+        }
+      ]
+    },
+    "qualitatsmanagement": {
+      "title": "Kalite yönetimi",
+      "subtitle": "Bizim için kalite sadece bir kelime değil – bir taahhüttür.",
+      "hero": {
+        "image": "/images/template.jpg",
+        "alt": "Kalite yönetimi – O&I CLEAN group GmbH"
+      },
+      "sections": [
+        {
+          "heading": "Kalite",
+          "body": "Bir kalite kontrolünde, müşterinin istek ve beklentilerinin gerçekten karşılanıp karşılanmadığı güvence altına alınır. Bir ürünün veya hizmetin kalitesi her müşteri için bireyseldir – ilgili müşteri veya şirkete göre değişir. Biz, Ö&I CLEAN group GmbH olarak ismimizin arkasında duruyoruz: Kalite bizim için birinci sıradadır."
+        }
+      ]
+    },
+    "mitarbeiter-schulungen": {
+      "title": "Çalışan eğitimleri",
+      "subtitle": "Sosyal ve teknik yetkinlikler için düzenli eğitim ve geliştirme programları.",
+      "hero": {
+        "image": "/images/template.jpg",
+        "alt": "Çalışan eğitimleri – O&I CLEAN group GmbH"
+      },
+      "sections": [
+        {
+          "heading": "Genel bakış",
+          "body": "Bir şirkette çalışan eğitimi düzenli olarak yapılmalıdır. Çalışanlar hem sosyal hem de teknik alanlarda – ister temelden, ister tazeleme eğitimi şeklinde – desteklenir. Eğitimler bireysel ya da grup halinde gerçekleştirilebilir."
+        }
+      ]
+    },
+    "haufig-gestellte-fragen-faq": {
+      "title": "Sıkça sorulan sorular (SSS)",
+      "subtitle": "Temizlik hizmetlerimizle ilgili en sık sorulan soruların yanıtları.",
+      "hero": {
+        "image": "/images/template.jpg",
+        "alt": "SSS – O&I CLEAN group GmbH"
+      },
+      "sections": [
+        {
+          "heading": "Genel temizlik neden önemlidir?",
+          "body": "Genel (derin) temizlik düzenli aralıklarla önemlidir, çünkü bir oda veya mekânda en küçük köşelerde bile günlük temizlikle ulaşılamayan toz ve kir birikebilir."
+        },
+        {
+          "heading": "Periyodik temizlik nedir?",
+          "body": "Periyodik temizlik, tüm ortak ve kamusal alanları kapsayan düzenli temizliktir."
+        },
+        {
+          "heading": "Temizlik ne sıklıkla yapılmalıdır?",
+          "body": "Günlük temizlik ideal olarak her gün yapılmalıdır. Genel temizlik ise düzenli aralıklarla gerçekleştirilmelidir."
+        },
+        {
+          "heading": "Neden uzman bir firmayla çalışmalıyım?",
+          "body": "Uzman bir firma, özel temizlik yöntemleri, profesyonel temizlik ürünleri ve elbette gerekli deneyime sahiptir."
+        }
+      ]
+    },
+    "datenschutzhinweise": {
+      "title": "Gizlilik bildirimi",
+      "subtitle": "Kişisel verilerinizin korunması bizim için özel bir önem taşımaktadır.",
+      "hero": {
+        "image": "/images/template.jpg",
+        "alt": "Gizlilik bildirimi – O&I CLEAN group GmbH"
+      },
+      "sections": [
+        {
+          "heading": "Gizlilik ilkeleri",
+          "body": "Bu sayfaların işletmecileri kişisel verilerinizin korunmasını çok ciddiye almaktadır. Kişisel verilerinizi yasal veri koruma düzenlemelerine ve bu gizlilik bildirimine uygun olarak gizli bir şekilde işliyoruz."
+        },
+        {
+          "heading": "Veri toplama & kullanımı",
+          "body": "Web sitemizi kullanmak genellikle kişisel veri vermeden mümkündür. Sayfalarımızda kişisel veriler (örneğin isim, adres veya e-posta adresi) toplanıyorsa, bu her zaman mümkün olduğunca gönüllülük esasına göre yapılır. Bu veriler, sizin açık onayınız olmadan üçüncü kişilerle paylaşılmaz."
+        },
+        {
+          "heading": "Veri iletiminin güvenliği",
+          "body": "İnternette veri iletiminin (örneğin e-posta yoluyla iletişimde) güvenlik açıkları olabileceğini hatırlatmak isteriz. Verilerin üçüncü şahısların erişimine karşı tamamen korunması mümkün değildir."
+        }
+      ]
+    },
+    "stockfotos": {
+      "title": "Stok fotoğraflar",
+      "subtitle": "Web sitemizde kullanılan görsellerle ilgili bilgiler.",
+      "hero": {
+        "image": "/images/template.jpg",
+        "alt": "Stok fotoğraflar – O&I CLEAN group GmbH"
+      },
+      "sections": [
+        {
+          "heading": "Lisanslama",
+          "body": "Web sitesinde kullanılan tüm stok fotoğraflar “royalty-free” lisanslıdır ve üçüncü tedarikçilerden ücret karşılığında satın alınmıştır."
+        },
+        {
+          "heading": "Haklar",
+          "body": "Tüm hakları saklıdır."
+        },
+        {
+          "heading": "Hukuki talepler",
+          "body": "Herhangi bir hukuki talep durumunda, İmpressum sayfası üzerinden Ö&I CLEAN group GmbH ile iletişime geçebilirsiniz."
+        }
+      ]
+    },
+    "impressum": {
+      "title": "İmpressum",
+      "subtitle": "§ 5 TMG uyarınca yasal bilgiler",
+      "hero": {
+        "image": "/images/template.jpg",
+        "alt": "İmpressum – O&I CLEAN group GmbH"
+      },
+      "sections": [
+        {
+          "heading": "Ö&I Clean GmbH",
+          "body": "Yönetici: Ömer Doğan"
+        },
+        {
+          "heading": "Adres",
+          "body": "Schnetter Straße 1\n98666 Masserberg\nAlmanya"
+        },
+        {
+          "heading": "Ticaret sicili",
+          "body": "Amtsgericht Jena, HRB 521053"
+        },
+        {
+          "heading": "KDV No. & Vergi numarası",
+          "body": "KDV No.: —\nVergi numarası: —"
+        },
+        {
+          "heading": "Hamburg ofisi",
+          "body": "Großmannstraße 86\n20539 Hamburg\nAlmanya"
+        },
+        {
+          "heading": "İletişim",
+          "body": "Telefon: +49 (0)36874 38 55 67\nTelefon: +49 (0)36874 38 55 68\nE-posta: info@oi-clean.de\nWeb: www.oi-clean.de"
+        },
+        {
+          "heading": "Sorumluluk reddi",
+          "body": "İçeriğin doğruluğu konusunda herhangi bir garanti verilmez. Harici web sitelerine verilen bağlantılar, ilgili sağlayıcıların sorumluluğundadır."
+        },
+        {
+          "heading": "Telif hakkı",
+          "body": "Bu sayfada yayınlanan tüm içerikler Alman telif hakkına tabidir. İzinsiz çoğaltma veya dağıtım yasaktır."
+        }
+      ]
+    },
+    "cookie-policy": {
+      "title": "Çerez Politikası",
+      "subtitle": "Çerezleri ve benzer teknolojileri nasıl kullandığımız",
+      "hero": {
+        "image": "/images/template.jpg",
+        "alt": "Çerez Politikası – O&I CLEAN group GmbH"
+      },
+      "sections": [
+        {
+          "heading": "Çerez nedir?",
+          "body": "Çerezler, siteyi geliştirmemize, içeriği kişiselleştirmemize ve belirli işlevleri sağlamamıza yardımcı olan cihazınıza kaydedilen küçük metin dosyalarıdır."
+        },
+        {
+          "heading": "Çerezleri nasıl kullanıyoruz",
+          "body": "Site işlevselliği, analiz ve dil/tercih hatırlama için çerezler kullanıyoruz. Çerez ayarlarını tarayıcınızdan kontrol edebilirsiniz."
+        },
+        {
+          "heading": "İletişim",
+          "body": "Çerez politikamızla ilgili sorularınız varsa lütfen iletişim sayfası üzerinden bize ulaşın."
+        }
+      ]
+    }
+  },
+  "errors": {
+    "notFound": {
+      "home": "Ana Sayfaya Dön",
+      "contact": "İletişime Geç",
+      "reload": "Sayfayı Yenile",
+      "404": "Aradığınız sayfa bulunamadı.",
+      "500": "Sunucu hatası oluştu — lütfen tekrar deneyin."
+    }
+  },
+  "ui": {
+    "loading": {
+      "message": "İçerik yükleniyor…"
+    }
+  },
+  "locationShow": {
+    "services_title_prefix": "",
+    "services_title_suffix": "için diğer hizmetler",
+    "services_subtitle": "Bu şehirde sunduğumuz diğer temizlik hizmetlerini keşfedin.",
+    "loading": "Yükleniyor…",
+    "empty": "Bu şehir için başka hizmet tanımlı değil."
+  },
+  "cookies": {
+    "title": "Çerez Tercihleri",
+    "message": "Web sitemizde en iyi deneyimi yaşamanız için çerezleri kullanıyoruz.",
+    "cat_necessary": "Zorunlu Çerezler",
+    "cat_analytics": "Analiz Çerezleri",
+    "cat_marketing": "Pazarlama Çerezleri",
+    "desc_necessary": "Bu çerezler web sitesinin çalışması için gereklidir.",
+    "desc_analytics": "Bu çerezler sitemizi nasıl kullandığınız hakkında bilgi toplar.",
+    "desc_marketing": "Bu çerezler size uygun reklamlar göstermek için kullanılır.",
+    "required": "Zorunlu",
+    "accept_all": "Tümünü Kabul Et",
+    "reject": "Reddet",
+    "save": "Seçimi Kaydet",
+    "settings": "Tercihler",
+    "hide_details": "Gizle",
+    "privacy_policy": "Gizlilik Politikası",
+    "imprint": "Künye"
+  },
+  "map": {
+    "close": "Haritayı Kapat",
+    "show": "Haritada Göster"
+  },
+  "common": {
+    "ok": "Tamam"
+  },
+  "required": {
+    "name": "İsim gerekli.",
+    "phone": "Telefon gerekli.",
+    "email": "E-posta gerekli.",
+    "message": "Mesaj gerekli."
+  },
+  "submit_error": "Hata! Lütfen tekrar deneyin."
+}

@@ -1,0 +1,187 @@
+/* --- GENEL AYARLAR & DEĞİŞKENLER --- */
+:root {
+  --primary-color: var(--header-background-color);
+  --primary-hover: var(--site-primary-color);
+  --primary-light: #e0f2fe;
+  --text-dark: #0f172a;
+  --text-medium: #334155;
+  --text-light: #64748b;
+  --bg-light: #ffffff;
+  --bg-card: #ffffff;
+  --bg-gradient-start: #f8fafc;
+  --bg-gradient-end: #ffffff;
+  --border-color: rgba(148, 163, 184, 0.2);
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --radius-lg: 20px;
+  --radius-md: 16px;
+  --radius-sm: 12px;
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* DARK MODE */
+:root.dark {
+  --text-dark: #f8fafc;
+  --text-medium: #cbd5e1;
+  --text-light: #94a3b8;
+  --bg-light: #0f172a;
+  --bg-card: #1e293b;
+  --bg-gradient-start: #0f172a;
+  --bg-gradient-end: #1e293b;
+  --border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* RESET */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg-light);
+  color: var(--text-medium);
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  max-width: 1800px;
+  margin: auto;
+  padding-inline: 1.5rem;
+}
+.locx-content-html{
+  font-size: 32px;
+}
+.dark .locx-content{
+  background-color: #0f172a;
+}
+.dark .locx-services{
+  background-color: #0f172a;
+}
+/* ======================================================
+    HERO SECTION
+    ====================================================== */
+.locx-hero { position: relative; overflow: hidden; }
+.locx-hero__media {
+  width: 100%;
+  aspect-ratio: 21/9;
+  max-height: 800px;
+  overflow: hidden;
+}
+.locx-hero__img { width: 100%; height: 100%; object-fit: cover; transition: .8s; }
+.locx-hero__media:hover .locx-hero__img { transform: scale(1.05); }
+.locx-hero__overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(135deg, rgba(15,23,42,.75), rgba(15,23,42,.5), rgba(14,165,233,.3));
+}
+.locx-hero__content {
+  position: absolute; inset: 0;
+  padding: 4rem 2rem;
+  display: flex; align-items: flex-end;
+}
+.locx-title {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 900;
+  line-height: 1.1;
+  color: var(--h1-color);
+  text-shadow: 0 0 5px rgba(255,255,255,.9);
+}
+
+/* ======================================================
+    CONTENT SECTION
+    ====================================================== */
+.locx-content { padding: 5rem 0; }
+.locx-city-title {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+/* ======================================================
+    SERVICES GRID — FIXED CLEAN VERSION 🔥
+    ====================================================== */
+.locx-services {
+  padding: 7rem 0;
+  position: relative;
+}
+
+/* ⭐ Masaüstünde kesin 5 sütun */
+.locx-services__grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+  align-items: stretch;
+  margin-top: 3rem;
+}
+
+/* 1400px ↓ = 4 sütun */
+@media (max-width: 1400px) {
+  .locx-services__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* 1024px ↓ = 3 sütun */
+@media (max-width: 1024px) {
+  .locx-services__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* 768px ↓ = 2 sütun */
+@media (max-width: 768px) {
+  .locx-services__grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+/* 640px ↓ = 1 sütun */
+@media (max-width: 640px) {
+  .locx-services__grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
+/* ======================================================
+    🌊 LIQUID ETHER STYLES (Eklenen Kısım)
+    ====================================================== */
+
+/* Services bölümünü Liquid Ether'a göre ayarlar */
+.locx-services-ether {
+  /* Arka planı konumlandırmak için gereklidir */
+  position: relative;
+  /* İçeriğin üstte kalması için z-index 0'dan büyük olmalı */
+  z-index: 1;
+  /* Likit efektinin taşmasını engeller */
+  overflow: hidden;
+}
+
+/* Likit Arka Planın Kendisi */
+.locx-liquid-bg {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* Her zaman en altta */
+  /* Tıklama etkileşimini sadece canvas üzerinde bırakmak için */
+  pointer-events: none;
+}
+
+/* Canvas üzerinde fare etkileşimini etkinleştirir (Bileşen ayarına bağlı olarak) */
+.locx-liquid-bg canvas {
+    pointer-events: auto !important;
+}
+
+/* Kapsayıcı içindeki içeriğin Likit efektinin üstünde kalmasını sağlar */
+.locx-services-ether .container {
+  position: relative;
+  z-index: 5; /* İçeriği likit efektin üzerine taşır */
+}
+
+/* Dark Mode - Eğer servis bölümü LiquidEther ile kullanılıyorsa arka planı ayarlar */
+.dark .locx-services-ether {
+    background-color: var(--bg-light, #0f172a);
+}

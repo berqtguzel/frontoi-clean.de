@@ -1,0 +1,191 @@
+:root{
+    --service-card-bg: #ffffff;
+    --service-card-border: rgba(226, 232, 240, 0.8);
+    --service-card-shadow: 0 4px 6px rgba(0,0,0,.08);
+    --service-card-shadow-hover: 0 18px 30px rgba(0,0,0,.12);
+    --service-card-text-primary: #0f172a;
+    --service-card-text-secondary: #64748b;
+    --service-card-accent: var(--site-primary-color, #3b82f6);
+    --service-card-accent-hover: var(--site-accent-color, #2563eb);
+    --service-card-overlay: linear-gradient(180deg, transparent 0%, rgba(0,0,0,.45) 100%);
+    --service-card-button-bg: var(--button_color, var(--site-primary-color, #3b82f6));
+    --service-card-button-text: #ffffff;
+    --h2-color: #111;
+    --button_color: var(--button_color, #2563eb);
+}
+
+.location-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 360px;
+  min-height: 420px;
+  background: var(--service-card-bg, #fff);
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid var(--service-card-border, #e2e8f0);
+  box-shadow: var(--service-card-shadow, 0 4px 14px rgba(0,0,0,0.06));
+  transition: all .32s cubic-bezier(.4,0,.2,1);
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Hover Glow */
+.location-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--service-card-shadow-hover, 0 8px 24px rgba(0,0,0,0.1));
+  border-color: var(--service-card-accent, #2563eb);
+}
+
+.location-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 2px solid var(--service-card-accent, #3b82f6);
+  opacity: 0;
+  transition: opacity .35s ease;
+  pointer-events:none;
+  z-index: 2;
+}
+.location-card:hover::before {
+  opacity: .6;
+}
+
+/* IMAGE */
+.location-card-media {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background: #eef2ff;
+}
+.dark .location-card-media {
+  background: #1e293b;
+}
+
+.location-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform .5s ease;
+}
+
+.location-card:hover .location-card-image {
+  transform: scale(1.05);
+}
+
+/* CONTENT */
+.location-card-content {
+  flex: 1;
+  padding: 1.5rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.location-card-title {
+  font-size: 1.12rem;
+  font-weight: 700;
+  margin-bottom: .75rem;
+  color: var(--h2-color, #111);
+  line-height: 1.35;
+}
+.dark .location-card-title {
+  color: #fff;
+}
+.dark .location-card {
+    background-color: #1e293b;
+}
+.location-card:hover .location-card-title {
+  color: var(--service-card-accent, #2563eb);
+}
+.dark .location-card:hover .location-card-title {
+  color: #2563eb;
+}
+.dark .location-card:hover .location-card__button {
+  color: #2563eb !important;
+}
+
+
+/* CTA FOOTER */
+.location-card-footer {
+  margin-top: auto;
+  padding-top: .7rem;
+}
+.dark .location-card-button{
+    color: white;
+}
+.dark .location-card-button:hover{
+    color: #2563eb;
+}
+.location-card-button {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  font-size: .95rem;
+  font-weight: 600;
+  color: var(--button_color);
+
+  transition: .3s;
+}
+
+.location-card-arrow {
+  width: 1.15rem;
+  height: 1.15rem;
+  transition: transform .3s;
+}
+
+.location-card:hover .location-card-arrow {
+  transform: translateX(6px);
+}
+
+/* RESPONSIVE */
+@media(max-width:1024px){
+  .location-card {
+    max-width: 300px;
+    min-height: 380px;
+  }
+  .location-card-media { height: 200px; }
+}
+
+@media(max-width:640px){
+  .location-card {
+    max-width: 100%;
+    min-height: 360px;
+  }
+  .location-card-media { height: 180px; }
+}
+
+/* Reduced Motion */
+@media(prefers-reduced-motion:reduce){
+  * { transition:none !important; animation:none !important; }
+}
+
+/* Dark Glow Border */
+.dark .location-card::before {
+  border-color: #2563eb;
+}
+
+/* Mobile Hover Disable */
+@media (max-width: 1024px) {
+  .location-card:hover {
+    transform: none;
+    box-shadow: var(--service-card-shadow, 0 4px 14px rgba(0,0,0,0.06));
+    border-color: var(--service-card-border, #e2e8f0);
+  }
+  .location-card:hover .location-card-image {
+    transform: none;
+  }
+  .location-card:hover .location-card-title {
+    color: var(--h2-color, #111);
+  }
+  .location-card:hover .location-card-arrow {
+    transform: none;
+  }
+  .location-card::before {
+    opacity: 0 !important;
+  }
+}
