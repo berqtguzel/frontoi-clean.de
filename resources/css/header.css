@@ -1245,3 +1245,35 @@
 .dark .mobile-bottom-bar a:hover {
     background: rgba(255, 255, 255, 0.2);
 }
+/* parent item */
+.menu__item {
+    position: relative;
+}
+
+/* submenu başlangıçta gizli */
+.submenu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+    background: #fff;
+    border-radius: 10px;
+    min-width: 220px;
+    padding: 10px 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.menu__item:hover > .submenu {
+    display: block;
+}
+
+.menu__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submenu__arrow {
+    font-size: 12px;
+    margin-left: 10px;
+}

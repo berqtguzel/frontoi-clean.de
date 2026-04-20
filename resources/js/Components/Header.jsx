@@ -46,6 +46,29 @@ const smoothScrollTo = (hash) => {
         history.replaceState(null, "", `${window.location.pathname}#${id}`);
     }
 };
+const renderMenuItems = (items, navigate) => {
+    return items.map((item, idx) => (
+        <div key={idx} className="menu__item">
+            <a
+                href={item.url}
+                className="menu__link has-children"
+                onClick={navigate(item.url)}
+            >
+                <SafeHtml html={item.label || item.name} as="span" />
+
+                {item.children && item.children.length > 0 && (
+                    <FaChevronRight className="submenu__arrow" />
+                )}
+            </a>
+
+            {item.children && item.children.length > 0 && (
+                <div className="submenu">
+                    {renderMenuItems(item.children, navigate)}
+                </div>
+            )}
+        </div>
+    ));
+};
 
 const HeaderInner = memo(() => {
     const { props } = usePage();
@@ -171,6 +194,7 @@ const HeaderInner = memo(() => {
         return () => window.removeEventListener("scroll", handler);
     }, []);
 
+    console.log(props);
     return (
         <>
             <header ref={headerRef} className="fixed top-0 left-0 w-full z-50">
@@ -307,31 +331,9 @@ const HeaderInner = memo(() => {
                                                     }
                                                 >
                                                     <div className="menu">
-                                                        {item.children.map(
-                                                            (sub, idx) => (
-                                                                <div
-                                                                    className="menu__item"
-                                                                    key={idx}
-                                                                >
-                                                                    <a
-                                                                        href={
-                                                                            sub.url
-                                                                        }
-                                                                        className="menu__link"
-                                                                        onClick={navigate(
-                                                                            sub.url,
-                                                                        )}
-                                                                    >
-                                                                        <SafeHtml
-                                                                            html={
-                                                                                sub.label ||
-                                                                                sub.name
-                                                                            }
-                                                                            as="span"
-                                                                        />
-                                                                    </a>
-                                                                </div>
-                                                            ),
+                                                        {renderMenuItems(
+                                                            item.children,
+                                                            navigate,
                                                         )}
                                                     </div>
                                                 </div>
